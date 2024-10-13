@@ -1,0 +1,37 @@
+.navbar {
+  background-color: #292811;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-list li {
+  display: inline;
+}
+
+.navbar-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.navbar-list li a:hover {
+  background-color: #357ae8;
+  border-radius: 4px;
+}
+
+.navbar-list li a.active {
+  background-color: #357ae8;
+  border-radius: 4px;
+}

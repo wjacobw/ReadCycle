@@ -1,0 +1,73 @@
+.points-page {
+  background-color: #f7f7f7;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.dollars {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ff9800;
+  margin-bottom: 15px;
+}
+
+.points {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.level {
+  font-size: 2rem;
+  margin-top: 10px;
+  color: #4caf50;
+}
+
+.next-reward {
+  font-size: 1.5rem;
+  margin-top: 15px;
+  color: #03a9f4;
+}
+
+.progress-bar {
+  width: 300px;
+  height: 30px;
+  background-color: #e0e0e0;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 20px;
+  margin: 20px auto;
+}
+
+.progress {
+  height: 100%;
+  background-color: #76c7c0;
+  border-radius: 15px;
+  transition: width 0.4s ease;
+}
+
+.loading {
+  font-size: 2rem;
+}
+
+.level-up-message {
+  font-size: 2rem;
+  color: #ff9800;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  font-size: 1.5rem;
+}
