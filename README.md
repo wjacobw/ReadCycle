@@ -36,11 +36,11 @@ npm install
 
 Rename .env.sample to .env:
 
-For both frontend and backend, copy the environment file template to a .env file:
+For both frontend and backend, copy & paste the the keys provided in notion to the .env.sample files in both frontend and backend folders, then:
 
-cp frontend/.env.example frontend/.env
+cp frontend/.env.sample frontend/.env
 
-cp backend/.env.example backend/.env
+cp backend/.env.sample backend/.env
 
 Run the Application:
 
