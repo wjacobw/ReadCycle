@@ -7,14 +7,13 @@ import { UsersModule } from '../users/users.module';
 import { JwtStrategy } from './strategies/jwt.strategy';
 import { GoogleStrategy } from './strategies/google.strategy';
 import { UsersService } from 'src/users/users.service';
-import process from 'process';
 
 @Module({
   imports: [
     UsersModule,
     PassportModule,
     JwtModule.register({
-      secret: 'GMGCfFLMMd3D+xlFzhhRjKLCtAPMc3hTMab5fo4bgms=',
+      secret: process.env.JWT_SECRET,
       signOptions: { expiresIn: '600m' },
     }),
   ],

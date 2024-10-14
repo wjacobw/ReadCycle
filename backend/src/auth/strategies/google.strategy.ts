@@ -3,7 +3,8 @@ import { PassportStrategy } from '@nestjs/passport';
 import { Strategy, VerifyCallback } from 'passport-google-oauth20';
 import { UserDocument } from 'src/schemas/User.schema';
 import { UsersService } from 'src/users/users.service';
-import process from 'process';
+import * as dotenv from 'dotenv';
+dotenv.config();
 
 @Injectable()
 export class GoogleStrategy extends PassportStrategy(Strategy, 'google') {
