@@ -9,6 +9,7 @@ dotenv.config();
 @Injectable()
 export class GoogleStrategy extends PassportStrategy(Strategy, 'google') {
   constructor(private usersService: UsersService) {
+    // console.log('client id is', process.env.REACT_APP_GOOGLE_CLIENT_ID);
     super({
       clientID: process.env.REACT_APP_GOOGLE_CLIENT_ID,
       clientSecret: process.env.REACT_APP_GOOGLE_CLIENT_SECRET,

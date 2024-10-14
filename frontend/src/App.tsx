@@ -24,6 +24,7 @@ import "./css/NavBar.css";
 const clientId = process.env.REACT_APP_GOOGLE_CLIENT_ID || "your-client-id";
 
 function App() {
+  // console.log("clientid is", clientId);
   return (
     <GoogleOAuthProvider clientId={clientId}>
       <UserContextProvider>
