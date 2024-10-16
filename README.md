@@ -26,18 +26,17 @@ cd ../backend
 
 npm install
 
-Rename .env.sample to .env:
-
 For both frontend and backend, copy & paste the the keys provided in notion to the .env.sample files in both frontend and backend folders, then:
 
 cp frontend/.env.sample frontend/.env
 
 cp backend/.env.sample backend/.env
 
+Rename .env.sample to .env:
+
 Start Docker containers (frontend, backend, and database) using Docker Compose:
 
 docker-compose up --build
-
 
 Run the Application:
 
