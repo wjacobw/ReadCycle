@@ -14,14 +14,6 @@ cd Readcycle.ai
 
 Docker Setup:
 
-Start Docker containers (frontend, backend, and database) using Docker Compose:
-
-docker-compose up --build
-
-Install Dependencies:
-
-After Docker containers are up, install npm packages for both the frontend and backend.
-
 Navigate to the frontend folder:
 
 cd frontend
@@ -41,6 +33,11 @@ For both frontend and backend, copy & paste the the keys provided in notion to t
 cp frontend/.env.sample frontend/.env
 
 cp backend/.env.sample backend/.env
+
+Start Docker containers (frontend, backend, and database) using Docker Compose:
+
+docker-compose up --build
+
 
 Run the Application:
 
