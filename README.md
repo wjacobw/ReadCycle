@@ -12,7 +12,6 @@ git clone git@github.com:wjacobw/ReadCycle.git
 
 cd Readcycle.ai
 
-Docker Setup:
 
 Navigate to the frontend folder:
 
@@ -33,6 +32,8 @@ cp frontend/.env.sample frontend/.env
 cp backend/.env.sample backend/.env
 
 Rename .env.sample to .env:
+
+Docker Setup:
 
 Start Docker containers (frontend, backend, and database) using Docker Compose:
 
